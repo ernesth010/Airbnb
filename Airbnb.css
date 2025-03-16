@@ -12,7 +12,7 @@ body {
     
 }
 .main-header {
-    /* margin: var(-1-main-margin); */
+    margin: var(--main-margin);
     
 }
 .main-icon img {
@@ -33,7 +33,7 @@ body {
     padding: 10px 10px;
     margin-top: 5px; */
     width:29%;
-    height:29px;
+    height: 29px;
     border-radius: 30px;
     padding: 9px 9px;
     border: 0.9px solid rgb(125, 122, 122);
@@ -102,6 +102,7 @@ h3:nth-child(3) {
     justify-content: center;
 }
 .profiles {
+    display: flex;
     gap: 15px;
     display: flex;
     align-items: center;
@@ -132,18 +133,18 @@ h3:nth-child(3) {
     color: brown;
 }
 .nav-links nav div {
-    /* display: fle`````x; */
+    display: flex;
     padding: 9px;
-    /* flex-direction: column; */
+    flex-direction: column;
     /* background-color: black; */
     
 }
 .nav-links{
-   width: 80%; 
-   /* overflow: hidden; */
-   /* scrollbar-width: none; */
+   width: 80%;
+   overflow: hidden;
+   scrollbar-width: none;
    /* background-color: blue; */
-    /* display: flex; */
+    display: flex;
     overflow-x: scroll;
     scrollbar-width: none;
     white-space: nowrap;
@@ -160,7 +161,7 @@ h3:nth-child(3) {
     height: 65px;
     margin-left: 10px;
 }
-  .hero-header {
+.hero-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -168,7 +169,7 @@ h3:nth-child(3) {
     gap: 10px;
     align-items: center;
     /* background-color: red; */
-} 
+}
 nav {
     display: flex;
     padding: 5px;
@@ -182,22 +183,22 @@ nav {
 .nav-links div h3:hover {
 text-decoration: underline;
 cursor: pointer;
-} */
+}
 
 .filter-links {
     display: flex;
     gap: 8px;
     margin-left: 10px; 
     font-size: 10px;
-    align-items: center;
+    
 
 }
 .filters {
     display: flex;
     align-items: center;
     border: 0.5px solid grey;
-    border-radius:20px;
-    padding: 2.5px 10px;
+    border-radius:20px ;
+    padding: 5.5px 10px;
     gap: 5px;
     margin-left: 20px; 
 
@@ -212,7 +213,7 @@ cursor: pointer;
     gap: 5px;
     margin-right: 27px;   
 }
-.taxes i { 
+.taxes i {
     color: gray;
     font-size: 20px;
 }
@@ -252,7 +253,7 @@ cursor: pointer;
 .location .ratings {
     display: flex;
     justify-content:center;
-    /* margin-left: 75px; */
+    margin-left: 75px;
 }
 .location {
     display: flex;
